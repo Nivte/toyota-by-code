@@ -1,0 +1,47 @@
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-inline: 30.5%;
+}
+.first {
+  display: inline-block;
+  height: 300px;
+  width: 500px;
+  border-radius: 50%;
+  margin-inline: 30.5%;
+  margin-block-start: 10%;
+  border: solid 25px #dadbdd;
+  background-color: black;
+  background: linear-gradient(black, grey);
+}
+.second {
+  display: inline-block;
+  height: 110px;
+  width: 350px;
+  border-radius: 50%;
+  margin-inline: 10%;
+  margin-block-start: -5%;
+  border: solid 25px #dadbdd;
+  background: linear-gradient(black, grey);
+}
+.third {
+  display: inline-block;
+  height: 290px;
+  width: 110px;
+  border-radius: 50%;
+  margin-inline: 35%;
+  margin-block-start: -32%;
+  border: solid 25px #dadbdd;
+}
+.mark {
+  display: inline-block;
+  color: #e80000;
+  text-transform: uppercase;
+  margin-inline-start: 30.5%;
+  margin-block: 3%;
+  font-size: 100px;
+  letter-spacing: 30px;
+  -webkit-text-stroke: 3px black;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
