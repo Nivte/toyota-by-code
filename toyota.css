@@ -11,6 +11,7 @@ h1 {
   border: solid 25px #dadbdd;
   background-color: black;
   background: linear-gradient(black, grey);
+  outline: auto black;
 }
 .second {
   display: inline-block;
@@ -21,6 +22,8 @@ h1 {
   margin-block-start: -5%;
   border: solid 25px #dadbdd;
   background: linear-gradient(black, grey);
+
+
 }
 .third {
   display: inline-block;
