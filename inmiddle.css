@@ -1,5 +1,5 @@
 body {
-  display: flex;
+    display: flex;
   flex-direction: column;
   margin: 0px;
   align-items: center;
@@ -24,6 +24,9 @@ h1 {
 }
 .first:hover {
   padding: 10px;
+  border: solid 25px aliceblue;
+  
+ 
 }
 .first:active {
   outline: inset #e80000;
