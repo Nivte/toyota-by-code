@@ -1,7 +1,14 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  align-items: center;
+}
 
 h1 {
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .first {
   display: inline-block;
   height: 300px;
@@ -9,12 +16,20 @@ h1 {
   border-radius: 50%;
   margin-inline: 30.5%;
   margin-block-start: 10%;
-
   border: solid 25px #dadbdd;
   background-color: black;
   background: linear-gradient(black, grey);
   outline: auto black;
+  transition: 1s 0.3s;
 }
+.first:hover {
+  padding: 10px;
+}
+.first:active {
+  outline: inset #e80000;
+  transition: 0s 0s;
+}
+
 .second {
   display: inline-block;
   height: 110px;
@@ -24,8 +39,10 @@ h1 {
   margin-block-start: -5%;
 
   border: solid 25px #dadbdd;
+
   background: linear-gradient(black, grey);
 }
+
 .third {
   display: inline-block;
   height: 290px;
@@ -41,9 +58,9 @@ h1 {
   display: inline-block;
   color: #e80000;
   text-transform: uppercase;
-
-  margin-inline-start: 30.5%;
-  margin-block: 3%;
+  margin-inline-start: 0.5%;
+  margin-block: 1%;
+  margin-bottom: 50px;
 
   font-size: 100px;
   letter-spacing: 30px;
