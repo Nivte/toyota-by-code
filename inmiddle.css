@@ -1,5 +1,5 @@
 body {
-    display: flex;
+  display: flex;
   flex-direction: column;
   margin: 0px;
   align-items: center;
@@ -20,14 +20,11 @@ h1 {
   background-color: black;
   background: linear-gradient(black, grey);
   outline: auto black;
-  transition: 1s 0.3s;
+  transition: 0.15s;
 }
 .first:hover {
   padding: 10px;
   border: solid 25px aliceblue;
-  
-  
- 
 }
 .first:active {
   outline: inset #e80000;
